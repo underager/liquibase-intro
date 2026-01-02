@@ -28,6 +28,7 @@ A database tool, which can be used to automate database deployments across vario
 - `liquibase init start-h2` : This will start an in-built H2 database server.
 - `liquibase update-sql` : This outputs the sql liquibase will execute. Works like a preview where you get to see the script before it is executed.
 - `liquibase update` : This will execute the command from the changelog file on to the configured database. When executed the first time creates 2 tables 'DatabaseChangeLog' and 'DatabaseChangeLogLock'
+  ![DatabaseChangeLog](images/DatabaseChangeLogSnap.png)
 
 - #### Role Backs
 
